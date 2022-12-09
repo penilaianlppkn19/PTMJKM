@@ -7,6 +7,16 @@ site: bookdown::bookdown_site
 ---
 
 
+```{r setup, include=FALSE}
+if(capabilities("cairo"))
+    knitr::opts_chunk$set(dev.args = list(type = "cairo"))
+library(knitr)
+library(tidyr)
+library(tinytex) 
+options(kableExtra.latex.load_packages = TRUE)
+library(kableExtra)
+```
+
 # MAKLUMAT PROGRAM
 
 | PERKARA          	| MAKLUMAT                                                                                                                                                                         	|
