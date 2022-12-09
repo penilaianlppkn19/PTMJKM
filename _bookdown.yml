@@ -1,0 +1,20 @@
+book_filename: "bookdownproj"
+output_dir: docs
+delete_merged_file: true
+edit: https://github.com/penilaianlppkn19/PTMJKM22/edit/master/%s
+view: https://github.com/penilaianlppkn19/PTMJKM22/blob/master/%s
+language:
+rmd_files:
+  [
+    "index.Rmd",
+    
+    "02-Program1.Rmd",
+    
+    "03-Program2.Rmd",
+    
+    "04-Keseluruhan.Rmd",
+    
+    "05-Lampiran1.Rmd",
+    
+    "06-Lampiran2.Rmd",
+  ]
